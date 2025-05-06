@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6a1b9a;
+    margin-bottom: 30px;
+  }
+  
+  section, form {
+    margin-bottom: 40px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5e35b1;
+  }
+  
+  #hoverBox {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: centre;
+    background: #d1c4e9;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  #hoverBox:hover {
+    background: #b39ddb;
+  }
+  
+  #secret {
+    margin-top: 15px;
+    background: #ede7f6;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px dashed #7e57c2;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  #secret.active {
+    transform: scale(1.2);
+    background-color: #d1c4e9;
+  }
+  
+  #gallery {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+
+.tabContent {
+  padding: 10px;
+  background-color: #ede7f6;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#passwordFeedback {
+  font-size: 0.9em;
+  color: gray;
+}

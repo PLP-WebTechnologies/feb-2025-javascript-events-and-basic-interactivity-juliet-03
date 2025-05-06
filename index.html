@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎉 Interactive Web Playground</h1>
+
+  <!-- Event Handling Section -->
+  <section>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover over this box</div>
+    <input type="text" id="keyInput" placeholder="Type here..." />
+    <div id="secret" title="Double-click me!">🤫 Secret Action</div>
+  </section>
+
+  <!-- Interactive Elements Section -->
+  <section>
+    <button id="changeBtn">Change My Color</button>
+
+    <div id="gallery">
+      <img id="galleryImage" src="https://placekitten.com/300/200" alt="Gallery Image">
+      <button id="nextImg">Next Image</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tabBtn" data-tab="tab1">Tab 1</button>
+      <button class="tabBtn" data-tab="tab2">Tab 2</button>
+      <div id="tab1" class="tabContent">This is content for Tab 1.</div>
+      <div id="tab2" class="tabContent" style="display:none;">This is content for Tab 2.</div>
+    </div>
+  </section>
+  <form id="signupForm">
+    <h2>Signup Form</h2>
+    <input type="text" id="username" placeholder="Username" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="passwordFeedback"></span>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
